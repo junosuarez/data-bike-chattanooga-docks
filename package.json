@@ -1,0 +1,24 @@
+{
+  "name": "bike-share-docks-scripts",
+  "version": "0.1.0",
+  "description": "scripts to generate bike-share-docks datapackage",
+  "main": "scripts/get.js",
+  "scripts": {
+    "start": "npm run get && npm run build",
+    "get": "node scripts/get",
+    "build": "node scripts/to-geojson",
+    "clean": "rm data.csv && rm data.geojson"
+  },
+  "author": "jden <jason@denizac.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "csv-write-stream": "^0.1.2",
+    "binary-csv": "^0.1.7",
+    "wrap-stream": "0.0.0",
+    "through0": "^0.1.0",
+    "stream-filter": "^1.0.0",
+    "geojson-feature-transform": "^0.1.0",
+    "request": "^2.34.0",
+    "JSONStream": "^0.7.3"
+  }
+}
