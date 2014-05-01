@@ -35,6 +35,6 @@ scripts in `/scripts` directory licensed under [ISC][]
 all other contents, and this package as a whole, licesed under [PDDL][]
 
 
-[github issues]: 
+[github issues]: https://github.com/jden/data-bike-chattanooga-docks/issues
 [ISC]: http://opensource.org/licenses/ISC
 [PDDL]: http://www.opendatacommons.org/licenses/pddl/1.0/
