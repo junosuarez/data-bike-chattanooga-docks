@@ -1,4 +1,21 @@
 {
-  "@context":"https://github.com/jden/data-bike-chattanooga-docks",
-  "name":"bike-chattanooga-docks"
+  "@context":"https://w3id.org/datapackage/v1",
+  "name":"bike-chattanooga-docks",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "path": "data.csv"
+    },
+    {
+      "path": "data.geojson"
+    }
+  ],
+  "sources": [{
+    "name": "Bike Chattanooga",
+    "web": "http://bikechattanooga.org"
+  }],
+  "maintainers": [{
+    "name": "jden",
+    "email": "jason@denizac.org"
+  }]
 }
